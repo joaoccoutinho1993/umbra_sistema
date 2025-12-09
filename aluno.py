@@ -1,5 +1,6 @@
 # Arquivo: aluno.py
 
+
 class Aluno:
     # O __init__ é o ritual de nascimento do objeto
     def __init__(self, nome, notas):

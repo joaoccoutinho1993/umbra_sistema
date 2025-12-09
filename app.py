@@ -1,12 +1,12 @@
 # Arquivo: app.py
 
 # 1. IMPORTANDO (Pegando as coisas dos outros arquivos)
-from aluno import Aluno       # Do arquivo aluno, traga o cortador Aluno
-import utils                  # Traga a caixa de ferramentas inteira
+from aluno import Aluno  # Do arquivo aluno, traga o cortador Aluno
+import utils  # Traga a caixa de ferramentas inteira
 
 while True:
     print("\n--- SISTEMA SENAC ---")
-    
+
     # 2. ENTRADA DE DADOS (Você já sabe isso)
     nome = input("Digite o nome do aluno: ")
     n1 = float(input("Digite a nota 1: "))

@@ -1,5 +1,6 @@
 # Arquivo: analise.py
 
+
 def calcular_total(lista_generica: list) -> float:
     """
     Calcula o valor total do estoque baseado no preço e quantidade.
@@ -14,5 +15,5 @@ def calcular_total(lista_generica: list) -> float:
     for item in lista_generica:
         subtotal = item["preco"] * item["qtd"]
         total = total + subtotal
-    
+
     return total

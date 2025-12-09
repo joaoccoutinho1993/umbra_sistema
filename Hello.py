@@ -1,4 +1,3 @@
-
 """
 Exercício 3.6: Escreva uma expressão que será utilizada para decidir se um aluno ou não foi aprovador.
 Para ser aprovado, todas as médias do aluno devem ser maiores ou iguais a 7. Considere que o aluno cursa apenas três matérias,
@@ -10,6 +9,6 @@ materia2 = float(input("Digite a nota da segunda materia: "))
 materia3 = float(input("Digite a nota da terceira materia:"))
 
 if materia1 and materia2 and materia3 >= 7:
-    print ("Parabéns, você foi aprovado!")
+    print("Parabéns, você foi aprovado!")
 else:
-    print ("Você foi reprovado.")
+    print("Você foi reprovado.")
